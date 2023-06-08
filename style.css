@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100VW;
+    height: 100vh;
+}
+.title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorContainer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+.container{
+    width: 25%;
+    height: 40px;
+    box-shadow: 5px 5px 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redContainer1{
+    width: 25%;
+    height: 40px;
+    background-image: linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+}
+.redContainer2 {
+    width: 65%;
+    height: 40px;
+    background-image: linear-gradient(rgba(255, 0, 0,0.6),rgba(255, 0, 0,0.2),rgba(255, 0, 0,0.6));
+    border-left: 10px double rgba(0, 0, 0,1);
+}
+.redContainer3 {
+    width: 10%;
+    height: 40px;
+    background-image: linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+}
+.greenContainer1{
+    width: 25%;
+    height: 40px;
+    background-image: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+}
+.greenContainer2{
+    width: 65%;
+    height: 40px;
+    background-image: linear-gradient(rgb(60, 206, 2,0.6),rgb(72, 255, 0,0.2),rgb(72, 255, 0,0.6));
+    border-left: 10px double rgba(0, 0, 0,1);
+}
+.greenContainer3{
+    width: 10%;
+    height: 40px;
+    background-image: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+}
+.blueContainer1{
+    width: 25%;
+    height: 40px;
+    background-image: linear-gradient(rgba(31, 4, 150,1),rgba(31, 4, 150,0.5),rgba(31, 4, 150,1));    
+}
+.blueContainer2{
+    width: 65%;
+    height: 40px;
+    background-image: linear-gradient(rgba(31, 4, 150,0.6),rgba(31, 4, 150,0.2),rgba(31, 4, 150,0.6));
+    border-left: 10px double rgba(0, 0, 0,1);
+}
+.blueContainer3{
+   width: 10%;
+   height: 40px;
+   background-image: linear-gradient(rgba(31, 4, 150,1),rgba(31, 4, 150,0.5),rgba(31, 4, 150,1));
+}
